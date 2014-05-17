@@ -1,0 +1,517 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>4.0</Version>
+    <SavedWith>9.0.5219</SavedWith>
+    <CreatedWith>8.0.5088</CreatedWith>
+  </VersionInfo>
+  <Project>
+    <TrackChanges>false</TrackChanges>
+  </Project>
+  <TopLevelElement>
+    <RefID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</UniqueID>
+    <Name>Loan Processing</Name>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-950032ba-cfe4-427a-851c-7417a730da9f</UniqueID>
+    <UserID>UC-1</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Loan Application
+</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:07:13.9346214-05:00</DateAdded>
+    <DateModified>2014-02-03T13:55:11.0333942-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5234a266-47f4-4cd4-8c9a-b5c9623ce632</UniqueID>
+    <UserID>UC-2</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Credit Score</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:09:32.6812651-05:00</DateAdded>
+    <DateModified>2014-02-03T13:55:32.9670328-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-fa7df902-fea7-460b-9120-2530c20fa664</UniqueID>
+    <UserID>UC-3</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Score450-600 Poor
+</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:10:23.1317537-05:00</DateAdded>
+    <DateModified>2014-01-31T09:11:26.6862653-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9c0f5574-d169-467d-b892-fcd87c9dc8d2</UniqueID>
+    <UserID>UC-4</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Score600-700 Fair
+</Name>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:11:31.2570734-05:00</DateAdded>
+    <DateModified>2014-01-31T09:12:09.8515412-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6c943d51-d7a9-4b34-8502-40b96b5e717b</UniqueID>
+    <UserID>UC-5</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Score 700-800 Excellent
+</Name>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:12:15.997952-05:00</DateAdded>
+    <DateModified>2014-02-03T13:40:57.8522957-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-0b540a3d-f3e0-4d36-af2a-88aa2dd411f7</UniqueID>
+    <UserID>UC-6</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Evaluate Loan Application
+</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:13:04.2800368-05:00</DateAdded>
+    <DateModified>2014-02-03T13:50:58.2193502-05:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-236b553a-9e2c-4900-8422-583f3acabb89</UniqueID>
+    <UserID>UC-7</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Create Loan Account
+</Name>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-01-31T09:16:26.6903923-05:00</DateAdded>
+    <DateModified>2014-02-03T13:52:22.1630976-05:00</DateModified>
+  </UseCase>
+  <Actor>
+    <UniqueID>A-61372eeb-07e9-4ad7-99fd-d172d5d06a7b</UniqueID>
+    <UserID>A-1</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Applicant</Name>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2014-01-31T09:08:04.1355096-05:00</DateAdded>
+    <DateModified>2014-01-31T10:05:28.2239612-05:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-dc5db9fc-0c4f-4f40-8417-a3edfba5290d</UniqueID>
+    <UserID>A-2</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Credit Bureau</Name>
+    <Sequence>1</Sequence>
+    <DateAdded>2014-01-31T09:08:48.8763882-05:00</DateAdded>
+    <DateModified>2014-01-31T09:09:28.1416571-05:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-cb196adb-91a6-49b0-b81b-ac1596c9ebf8</UniqueID>
+    <UserID>A-3</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Customer
+</Name>
+    <Sequence>2</Sequence>
+    <DateAdded>2014-01-31T09:14:54.4630303-05:00</DateAdded>
+    <DateModified>2014-01-31T09:15:41.0759122-05:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-9a6d0f8c-7457-4f61-8901-a09c35457cc4</UniqueID>
+    <UserID>A-4</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Loan Administrator</Name>
+    <Sequence>3</Sequence>
+    <DateAdded>2014-01-31T09:15:47.5967236-05:00</DateAdded>
+    <DateModified>2014-01-31T09:16:05.0375542-05:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-668cca80-c02b-4155-8fbe-a58b6e1675b0</UniqueID>
+    <UserID>A-5</UserID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>New Actor</Name>
+    <Sequence>4</Sequence>
+    <DateAdded>2014-01-31T09:54:53.7088462-05:00</DateAdded>
+    <DateModified>2014-01-31T09:54:53.7088462-05:00</DateModified>
+  </Actor>
+  <Diagram>
+    <UniqueID>D-86fa24dd-b3ea-48f7-ae0a-be49d2faa251</UniqueID>
+    <ParentID>P-f1c14ee5-aa14-4ff2-a7c1-5d4f40961156</ParentID>
+    <Name>Application</Name>
+    <Sequence>0</Sequence>
+    <FileName>Application.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-6c943d51-d7a9-4b34-8502-40b96b5e717b</ParentID>
+    <ActorID>A-9a6d0f8c-7457-4f61-8901-a09c35457cc4</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-236b553a-9e2c-4900-8422-583f3acabb89</ParentID>
+    <ActorID>A-9a6d0f8c-7457-4f61-8901-a09c35457cc4</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-236b553a-9e2c-4900-8422-583f3acabb89</ParentID>
+    <ActorID>A-cb196adb-91a6-49b0-b81b-ac1596c9ebf8</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-0b540a3d-f3e0-4d36-af2a-88aa2dd411f7</ParentID>
+    <ActorID>A-9a6d0f8c-7457-4f61-8901-a09c35457cc4</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-0b540a3d-f3e0-4d36-af2a-88aa2dd411f7</ParentID>
+    <ActorID>A-cb196adb-91a6-49b0-b81b-ac1596c9ebf8</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-236b553a-9e2c-4900-8422-583f3acabb89</ParentID>
+    <ActorID>A-9a6d0f8c-7457-4f61-8901-a09c35457cc4</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-236b553a-9e2c-4900-8422-583f3acabb89</ParentID>
+    <ActorID>A-cb196adb-91a6-49b0-b81b-ac1596c9ebf8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-950032ba-cfe4-427a-851c-7417a730da9f</ParentID>
+    <ActorID>A-61372eeb-07e9-4ad7-99fd-d172d5d06a7b</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-950032ba-cfe4-427a-851c-7417a730da9f</ParentID>
+    <ActorID>A-dc5db9fc-0c4f-4f40-8417-a3edfba5290d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5234a266-47f4-4cd4-8c9a-b5c9623ce632</ParentID>
+    <ActorID>A-dc5db9fc-0c4f-4f40-8417-a3edfba5290d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5234a266-47f4-4cd4-8c9a-b5c9623ce632</ParentID>
+    <ActorID>A-61372eeb-07e9-4ad7-99fd-d172d5d06a7b</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UserID>
+    <DefaultPrefix>UC-</DefaultPrefix>
+    <NextValue>8</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-</DefaultPrefix>
+    <NextValue>6</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <BuiltInField>
+    <UniqueID>1</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the use case.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>2</UniqueID>
+    <Name>Level</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>The level of detail in the use case.</Description>
+    <DefaultValue />
+    <Choices>Summary;User;Subfunction</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>3</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>An indication of the difficulty of implementation.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>4</UniqueID>
+    <Name>UseCaseStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case specification.</Description>
+    <DefaultValue />
+    <Choices>Name Only;Initial;Base;Complete;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>5</UniqueID>
+    <Name>ImplStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case implementation.</Description>
+    <DefaultValue />
+    <Choices>Scheduled;Started;Partially Complete;Complete;Partially Deferred;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>6</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this use case.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>7</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this use case is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>100</UniqueID>
+    <Name>ReqType</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>The type of requirement.</Description>
+    <DefaultValue>Non-functional</DefaultValue>
+    <Choices>Functional;Non-functional;Business Rule;Constraint;Performance;Test;Change Request</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>101</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the requirement.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>102</UniqueID>
+    <Name>Source</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Where did the requirement originate?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>103</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the requirement.</Description>
+    <DefaultValue />
+    <Choices>Proposed;Approved;Rejected;Deferred;Implemented;Mandatory;Obsolete</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>104</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this requirement?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>105</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this requirement is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>200</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>1</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of this actor's interactions with the system.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>300</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority for resolving issue.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>301</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of issue.</Description>
+    <DefaultValue />
+    <Choices>New;Assigned;Resolved;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>302</UniqueID>
+    <Name>Type</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of issue.</Description>
+    <DefaultValue />
+    <Choices>Question;Approval;Clarification;Defect;Feature</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>303</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of issue to be resolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>304</UniqueID>
+    <Name>Risk</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Risk to project while unresolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>400</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of test scenario.</Description>
+    <DefaultValue />
+    <Choices>New;Partially defined;Defined</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>401</UniqueID>
+    <Name>TestType</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of test.</Description>
+    <DefaultValue />
+    <Choices>Acceptance;Usability;Performance;Load;Security;Bounds;White box</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>402</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of test.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>403</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the test scenario.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>501</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the user story.</Description>
+    <DefaultValue />
+    <Choices>Must;Should;Could;Won't</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>502</UniqueID>
+    <Name>Size</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>The relative complexity of the user story.</Description>
+    <DefaultValue />
+    <Choices>X-Small;Small;Med;Large;X-Large</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>503</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this user story?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>504</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the user story.</Description>
+    <DefaultValue />
+    <Choices>Backlog;Doing;Review;Done</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+</UCTDataSet>
